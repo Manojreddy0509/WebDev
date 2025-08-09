@@ -65,12 +65,6 @@ db.courses.insertMany([
       "price": 0,
       "assignments": 13,
       "projects": 36
-    },
-    {
-      "name": "Frontend Development with Vue.js",
-      "price": 0,
-      "assignments": 11,
-      "projects": 32
     }
   ]
   )
