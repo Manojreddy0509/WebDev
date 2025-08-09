@@ -10,7 +10,6 @@ db.courses.insertOne({
     assignments: 12,
     projects: 45
 })
-
 db.courses.insertMany([
     {
       "name": "Python Masterclass",
@@ -89,3 +88,4 @@ db.courses.updateMany({price: 0}, {$set:{price: 1000}})
 db.courses.deleteOne({price: 1000})
 
 // db.courses.deleteMany({price: 1000})
+
