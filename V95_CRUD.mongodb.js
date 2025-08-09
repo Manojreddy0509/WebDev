@@ -45,7 +45,7 @@ db.courses.insertMany([
       "name": "ReactJS Crash Course",
       "price": 0,
       "assignments": 10,
-      "projects": 25
+      "projects": 13
     },
     {
       "name": "SQL Simplified",
@@ -67,6 +67,9 @@ db.courses.insertMany([
     }
   ]
   )
+
+
+
 
 // READ
 // let a = db.courses.find({price: 0}) 
